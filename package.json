@@ -1,16 +1,18 @@
 {
-  "name": "@netlify/node-template",
-  "private": true,
-  "version": "0.1.0",
-  "description": "A repository template to bootstrap Node.js projects for Netlify",
+  "name": "steam-tickets",
+  "version": "1.0.0",
+  "description": "Steam login and ticket API",
+  "main": "index.js",
   "type": "module",
-  "license": "MIT",
-  "repository": "netlify/node-template",
-  "bugs": {
-    "url": "https://github.com/netlify/node-template/issues"
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "^14.16.0 || >=16.0.0"
-  },
-  "author": "Netlify Inc."
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "steam-session": "^1.9.4",
+    "steam-user": "^5.3.0"
+  }
 }
